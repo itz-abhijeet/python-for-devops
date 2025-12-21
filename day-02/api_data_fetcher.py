@@ -2,14 +2,14 @@ import requests
 
 #It provides details on how much shareholders are being paid and the currency used.
 
-api_key = "gzRn7DddPG5GUpYiGBZuArfpIO8IFJLH"
+api_key = "API_KEY"
 api_url = "https://api.massive.com/"
 api_query = f"v3/reference/dividends?apiKey={api_key}"   
 
 api = api_url + api_query
 # print(api)
 headers = {
-    "Authorization": "Bearer gzRn7DddPG5GUpYiGBZuArfpIO8IFJLH",
+    "Authorization": "Bearer API_KEY",
     "Host": "api.massive.com"
 }
 response = requests.get(url=api, headers=headers)
