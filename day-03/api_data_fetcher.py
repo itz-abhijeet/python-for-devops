@@ -34,7 +34,7 @@ def get_usd_shareholders_data(url, headers):
 
 if __name__ == "__main__":
 
-    api_key = "gzRn7DddPG5GUpYiGBZuArfpIO8IFJLH" 
+    api_key = "API_KEY" 
     base_url= "https://api.massive.com/v3/reference/dividends"
     headers = {
         "Authorization": f"Bearer {api_key}",
