@@ -4,7 +4,6 @@ import json
 def get_usd_shareholders_data(url, headers):
     try:
         response = requests.get(url=url, headers=headers, timeout=10)
-        
         response.raise_for_status() 
         
         data_json = response.json()
@@ -19,8 +18,7 @@ def get_usd_shareholders_data(url, headers):
                     "record_date": item.get('record_date', 'N/A')
                 }
 
-                print(f"ID: {records['id']} | Ticker: {records['ticker']} | "
-                      f"Amount: {records['cash_amount']} | Record Date: {records['record_date']}")
+                print(f"ID: {records['id']} | Ticker: {records['ticker']} | Amount: {records['cash_amount']} | Record Date: {records['record_date']}")
 
                 filtered_results.append(records)
         else:
