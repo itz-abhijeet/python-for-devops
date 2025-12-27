@@ -1,0 +1,17 @@
+{
+    "Instances": [
+        {
+            "id": "i-043ecf4da88f020f6",
+            "name": "abhijeetpawar"
+        },
+        {
+            "id": "i-0f91a4801839b668e",
+            "name": "test-instance"
+        }
+    ],
+    "Buckets": [
+        {
+            "name": "abhijeetpawar"
+        }
+    ]
+}
