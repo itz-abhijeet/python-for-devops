@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+routers
+psutils
+router
+boto3
